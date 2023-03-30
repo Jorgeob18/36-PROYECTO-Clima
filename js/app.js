@@ -73,7 +73,7 @@ function consultarAPI(ciudad, pais) {
       // Mostrar la respuesta en el html
       setTimeout(() => {
         mostrarClima(datos);
-      }, 30000);
+      }, 3000);
       console.log(datos);
     });
 
